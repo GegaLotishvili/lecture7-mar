@@ -1,0 +1,23 @@
+h2 {
+	font-size: 50px;
+	color: black;
+	color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+position: relative;
+animation: move 8s alternate ease-out infinite;
+
+}
+
+body {
+	background-color: #232323;
+}
+
+@keyframes move {
+	0% { top:100px; left:-300px; }
+	25% {top: 250px; left:200px; }
+	50%{top: 150px; left: 400px;}
+	75%{top: 150px; left: 200px;}
+	85% {top: 250px; left: 500px;}
+	100%{top: 400px; left: 1300px;}
+}
